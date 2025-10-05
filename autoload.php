@@ -2,7 +2,7 @@
 
 spl_autoload_register(function ($class) {
     $prefix = 'Object\\';
-    $base_dir = __DIR__ . '/src/';
+    $base_dir = __DIR__ . '/src/Object/';
 
     $len = strlen($prefix);
     if (strncmp($prefix, $class, $len) !== 0) {
